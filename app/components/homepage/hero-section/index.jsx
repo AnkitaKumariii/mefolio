@@ -28,46 +28,56 @@ function HeroSection() {
             This is {' '}
             <span className=" text-primary-600">{personalData.name}</span>
             {` , a Professional `}
-            <span className=" text-primary-600">{personalData.designation}</span>
+            <span className=" text-primary-600">{personalData.role}</span>
             .
           </h1>
 
           <div className="my-12 flex items-center gap-5">
-            <Link
-              href={personalData.github}
-              target='_blank'
-              className="transition-all text-slate-500 hover:text-primary-600 hover:scale-110 duration-300"
-            >
-              <BsGithub size={30} />
-            </Link>
-            <Link
-              href={personalData.linkedIn}
-              target='_blank'
-              className="transition-all text-slate-500 hover:text-primary-600 hover:scale-110 duration-300"
-            >
-              <BsLinkedin size={30} />
-            </Link>
-            <Link
-              href={personalData.facebook}
-              target='_blank'
-              className="transition-all text-slate-500 hover:text-primary-600 hover:scale-110 duration-300"
-            >
-              <FaFacebook size={30} />
-            </Link>
-            <Link
-              href={personalData.leetcode}
-              target='_blank'
-              className="transition-all text-slate-500 hover:text-primary-600 hover:scale-110 duration-300"
-            >
-              <SiLeetcode size={30} />
-            </Link>
-            <Link
-              href={personalData.twitter}
-              target='_blank'
-              className="transition-all text-slate-500 hover:text-primary-600 hover:scale-110 duration-300"
-            >
-              <FaTwitterSquare size={30} />
-            </Link>
+            {personalData.socials.github && (
+              <Link
+                href={personalData.socials.github}
+                target='_blank'
+                className="transition-all text-slate-500 hover:text-primary-600 hover:scale-110 duration-300"
+              >
+                <BsGithub size={30} />
+              </Link>
+            )}
+            {personalData.socials.linkedin && (
+              <Link
+                href={personalData.socials.linkedin}
+                target='_blank'
+                className="transition-all text-slate-500 hover:text-primary-600 hover:scale-110 duration-300"
+              >
+                <BsLinkedin size={30} />
+              </Link>
+            )}
+            {personalData.socials.facebook && (
+              <Link
+                href={personalData.socials.facebook}
+                target='_blank'
+                className="transition-all text-slate-500 hover:text-primary-600 hover:scale-110 duration-300"
+              >
+                <FaFacebook size={30} />
+              </Link>
+            )}
+            {personalData.socials.leetcode && (
+              <Link
+                href={personalData.socials.leetcode}
+                target='_blank'
+                className="transition-all text-slate-500 hover:text-primary-600 hover:scale-110 duration-300"
+              >
+                <SiLeetcode size={30} />
+              </Link>
+            )}
+            {personalData.socials.twitter && (
+              <Link
+                href={personalData.socials.twitter}
+                target='_blank'
+                className="transition-all text-slate-500 hover:text-primary-600 hover:scale-110 duration-300"
+              >
+                <FaTwitterSquare size={30} />
+              </Link>
+            )}
           </div>
 
           <div className="flex items-center gap-3">
@@ -78,11 +88,13 @@ function HeroSection() {
               </button>
             </Link>
 
-            <Link className="flex items-center gap-1 rounded-full border border-slate-300 bg-white px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-slate-700 no-underline transition-all duration-200 ease-out hover:bg-slate-50 hover:text-primary-600 hover:-translate-y-1" role="button" target="_blank" href={personalData.resume}
-            >
-              <span>Get Resume</span>
-              <MdDownload size={16} />
-            </Link>
+            {personalData.socials.resumeUrl && (
+              <Link className="flex items-center gap-1 rounded-full border border-slate-300 bg-white px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-slate-700 no-underline transition-all duration-200 ease-out hover:bg-slate-50 hover:text-primary-600 hover:-translate-y-1" role="button" target="_blank" href={personalData.socials.resumeUrl}
+              >
+                <span>Get Resume</span>
+                <MdDownload size={16} />
+              </Link>
+            )}
           </div>
 
         </div>
@@ -103,7 +115,7 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-slate-900">name:</span>
                 <span className="text-slate-500">{`'`}</span>
-                <span className="text-emerald-600">Ankita</span>
+                <span className="text-emerald-600">{personalData.name}</span>
                 <span className="text-slate-500">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">

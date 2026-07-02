@@ -19,15 +19,15 @@ function AboutSection() {
             Overview
           </p>
           <p className="text-slate-600 text-sm lg:text-lg leading-relaxed">
-            {personalData.description}
+            {personalData.bio}
           </p>
         </div>
         <div className="flex justify-center order-1 lg:order-2">
           <Image
-            src={personalData.profile}
+            src={personalData.profileImage}
             width={280}
             height={280}
-            alt="Ankita"
+            alt={personalData.name}
             className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
             style={{ width: 'auto', height: 'auto' }}
           />
