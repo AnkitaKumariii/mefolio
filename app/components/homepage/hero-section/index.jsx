@@ -82,7 +82,7 @@ function HeroSection() {
 
           <div className="flex items-center gap-3">
             <Link href="#contact" className="rounded-full transition-all duration-300 hover:-translate-y-1">
-              <button className="px-3 text-xs md:px-8 py-3 md:py-4 bg-primary-600 rounded-full border-none text-center md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out flex items-center gap-1 hover:bg-primary-700">
+              <button className="px-3 text-xs md:px-8 py-3 md:py-4 bg-[#1a1443] rounded-full border-none text-center md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out flex items-center gap-1 hover:bg-[#0f0b29]">
                 <span>Contact me</span>
                 <RiContactsFill size={16} />
               </button>

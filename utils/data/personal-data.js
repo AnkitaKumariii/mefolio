@@ -10,7 +10,7 @@ export const personalData = {
   socials: {
     email: 'ankitaa3020@gmail.com', 
     phone: '+91 9031416545', 
-    resumeUrl: "", 
+    resumeUrl: "#", 
     github: 'https://github.com/AnkitaKumariii', 
     linkedin: 'https://linkedin.com/in/ankita-kumari1312',
     leetcode: "https://leetcode.com/AnkitaKumariii",
