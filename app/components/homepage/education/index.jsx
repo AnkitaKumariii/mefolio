@@ -46,7 +46,7 @@ function Education() {
               {
                 educations.map(education => (
                   <GlowCard key={education.id} identifier={`education-${education.id}`}>
-                    <div className="p-3 relative text-white">
+                    <div className="p-3 relative">
                       <Image
                         src="/blur-23.svg"
                         alt="Hero"
@@ -55,19 +55,19 @@ function Education() {
                         className="absolute bottom-0 opacity-80"
                       />
                       <div className="flex justify-center">
-                        <p className="text-xs sm:text-sm text-[#16f2b3]">
+                        <p className="text-sm font-semibold sm:text-base text-violet-600 bg-violet-50 px-3 py-1 rounded-full shadow-sm">
                           {education.duration}
                         </p>
                       </div>
                       <div className="flex items-center gap-x-8 px-3 py-5">
-                        <div className="text-violet-500  transition-all duration-300 hover:scale-125">
-                          <BsPersonWorkspace size={36} />
+                        <div className="p-4 bg-violet-100 rounded-2xl text-violet-600 transition-all duration-300 hover:scale-110 shadow-sm shadow-violet-200/50">
+                          <BsPersonWorkspace size={28} />
                         </div>
                         <div>
-                          <p className="text-base sm:text-xl mb-2 font-medium uppercase">
+                          <p className="text-lg sm:text-xl mb-1 font-bold text-slate-800 uppercase tracking-wide">
                             {education.title}
                           </p>
-                          <p className="text-sm sm:text-base">{education.institution}</p>
+                          <p className="text-sm sm:text-base text-slate-600 font-medium">{education.institution}</p>
                         </div>
                       </div>
                     </div>
