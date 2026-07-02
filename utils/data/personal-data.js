@@ -18,6 +18,5 @@ export const personalData = {
     facebook: 'https://www.facebook.com/abusaid.riyaz/', // Your Facebook profile URL
     stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said', // Your StackOverflow profile URL
     instagram: '', // Your Instagram profile URL (leave empty if not used)
-    devUsername: "said7388", // Your dev.to username for blog posts
   }
 };
