@@ -1,0 +1,24 @@
+.glow-container {
+  /* Retained for layout compatibility if needed */
+}
+
+.glow-card {
+  position: relative;
+  border-radius: 12px;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0; /* slate-200 */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s ease;
+}
+
+.glow-card:is(:hover, :focus-visible) {
+  z-index: 2;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+  transform: translateY(-2px);
+  border-color: #cbd5e1; /* slate-300 */
+}
+
+/* Empty classes to prevent broken imports or React className errors */
+.glows {
+  display: none;
+}
