@@ -3,7 +3,7 @@ export const personalData = {
   name: "ANKITA", // Your display name
   role: "Software Developer", // Your professional title or role
   bio: "Ankita is a professional and enthusiastic programmer. She is a quick learner with a self-learning attitude, who loves to learn and explore new technologies and is passionate about problem-solving. She enjoys almost all stacks of web application development and aims to make the web more open to the world. Her core skills are based on JavaScript, and she loves to build most of her projects using it. She is available for any kind of job opportunity that suits her skills and interests.", // Your bio/about text
-  profileImage: '/profile.png', // Path to your profile image (e.g., in public directory)
+  profileImage: '', // Path to your profile image (e.g., in public directory)
   address: 'Middle Badda, Dhaka, Bangladesh - 1212 ', // Your physical address or location
   
   // Social & External Links
