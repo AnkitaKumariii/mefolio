@@ -10,9 +10,9 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Ankit - Software Developer",
+  title: "Portfolio of Ankita - Software Developer",
   description:
-    "This is the portfolio of Ankit. He is a full-stack and self-taught developer. He loves to learn new things and is always open to collaborating with others. He is a quick learner and is always looking for new challenges.",
+    "This is the portfolio of Ankita. She is a full-stack and self-taught developer. She loves to learn new things and is always open to collaborating with others. She is a quick learner and is always looking for new challenges.",
 };
 
 export default function RootLayout({ children }) {

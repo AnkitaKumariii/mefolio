@@ -103,7 +103,7 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-slate-900">name:</span>
                 <span className="text-slate-500">{`'`}</span>
-                <span className="text-emerald-600">Ankit</span>
+                <span className="text-emerald-600">Ankita</span>
                 <span className="text-slate-500">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">

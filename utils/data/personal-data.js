@@ -1,8 +1,8 @@
 export const personalData = {
-  name: "ANKIT",
+  name: "ANKITA",
   profile: '/profile.png',
   designation: "Software Developer",
-  description: "Ankit is a professional and enthusiastic programmer. He is a quick learner with a self-learning attitude, who loves to learn and explore new technologies and is passionate about problem-solving. He enjoys almost all stacks of web application development and aims to make the web more open to the world. His core skills are based on JavaScript, and he loves to build most of his projects using it. He is available for any kind of job opportunity that suits his skills and interests.",
+  description: "Ankita is a professional and enthusiastic programmer. She is a quick learner with a self-learning attitude, who loves to learn and explore new technologies and is passionate about problem-solving. She enjoys almost all stacks of web application development and aims to make the web more open to the world. Her core skills are based on JavaScript, and she loves to build most of her projects using it. She is available for any kind of job opportunity that suits her skills and interests.",
   email: 'abusaid7388@gmail.com',
   phone: '+8801608797655',
   address: 'Middle Badda, Dhaka, Bangladesh - 1212 ',

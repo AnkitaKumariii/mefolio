@@ -10,7 +10,7 @@ function Navbar() {
           <Link
             href="/"
             className=" text-slate-900 text-3xl font-bold tracking-tight">
-            ANKIT
+            ANKITA
           </Link>
         </div>
 
