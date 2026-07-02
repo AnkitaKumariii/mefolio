@@ -16,5 +16,23 @@ export const projectsData = [
         role: 'Full Stack Developer',
         code: 'https://github.com/AnkitaKumariii',
         demo: '',
+    },
+    {
+        id: 3,
+        name: 'Threat Detector Web App',
+        description: "A full-stack web application designed to detect malicious URLs, phishing attempts, and visual threats using a combination of heuristic analysis, Google Safe Browsing, VirusTotal, and Gemini AI. The backend engine resolves IP addresses, checks against global threat databases, and performs local heuristic evaluations.",
+        tools: ['React', 'Node.js', 'Express', 'Gemini AI', 'VirusTotal API', 'Google Safe Browsing'],
+        role: 'Full Stack Developer',
+        code: 'https://github.com/AnkitaKumariii/Detector',
+        demo: '',
+    },
+    {
+        id: 4,
+        name: 'CareerNest Job Portal',
+        description: "A comprehensive job portal platform designed to connect job seekers with employers. Features advanced search capabilities, resume building, and application tracking, built using modern full-stack web technologies.",
+        tools: ['React', 'JavaScript', 'Node.js', 'Express', 'MongoDB'],
+        role: 'Full Stack Developer',
+        code: 'https://github.com/AnkitaKumariii/careernest-job-portal',
+        demo: '',
     }
 ];
